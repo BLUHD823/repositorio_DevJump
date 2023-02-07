@@ -93,3 +93,11 @@ Para tener la lista de cambios primero hay que configurar
 En este caso usaríamos el código "git config --global alias.list 'log --oneline --decorate --graph --all' "
 
 Luego usamos el comando 'git list' para visualizar todos los cambios realizados
+
+# Crear tabla: 
+  
+| NOMBRE | CUENTA GITBHUB |
+| -- | -- |
+|Armando Torres Quintana | https://github.com/ArmaTQ |
+| Leandro Cuevas | https://github.com/leandro-cuevas |
+| Ivan de la Parte | https://github.com/ivandelaparte |
