@@ -1,17 +1,28 @@
 # repositorio_DevJump:
 En la página de GitHub le doy a crear repositorio.
+
 Luego para tener el repositorio en mi computadora lo clono con el comando 'git clone <link del repositorio>'
 
 # Commit inicial:
+
 En el archivo Read.me escribo todos los comandos que utilicé
+
 Comandos utilizados:
+
 cd
+
 mkdir
+
 list
+
 touch
+
 git add .
+
 git commit -m 
+
 git push
+
 Para guardar los cambios de ese archivo utilizo el comando 'git add .' y para hacer commit ' git commit -m "commit inicial" '
 
 # Push inicial:
