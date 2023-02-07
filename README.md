@@ -72,4 +72,24 @@ Segundo, para hacer el merge con las dos ramas hay que usar el comando 'git merg
   
 Para evitar los conflictos en la rama main hay que cambiar el archivo 1.txt y escrbir "Hola"
   
-Luego cambiar de ramas 'git checkout v0.2' y en el 1.txt agregar "Adios"
+Luego cambiar de ramas 'git checkout v0.2' y en el 1.txt agregar "Adios" en la segundo linea del texto
+  
+#Listado de ramas:
+  
+Para asegurarme de que las ramas se hayan unido de manera correcta utilizo el comando 'git branch --merged'
+  
+#Arreglar conflicto
+
+Para arreglar el conflicto me quedo con el "Hola" y el "Adios" en el 1.txt
+
+Borrar rama
+
+Para borrar la segunda rama uso el comando 'git brancho -d v0.2'
+  
+#Listado de cambios 
+  
+Para tener la lista de cambios primero hay que configurar
+  
+En este caso usaríamos el código "git config --global alias.list 'log --oneline --decorate --graph --all' "
+
+Luego usamos el comando 'git list' para visualizar todos los cambios realizados
