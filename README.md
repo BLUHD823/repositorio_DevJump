@@ -46,7 +46,7 @@ Crear el fichero 1 'touch 1.txt'
 
 Agregarlo con con los comandos 'git add .' y luego 'git commit -m "creación del fichero 1"'
 
-#Crear una rama v0.2:
+# Crear una rama v0.2:
 
 Para crear una rama tenemos que usar el comadno 'git branch <nombre de la rama>'
 
@@ -58,27 +58,27 @@ Desde la consola nos ubicamos en la carpeta y creamos el archivo 'touch 2.txt'
   
 Para poder agregarlos tenemos que cambiar de rama y por eso usamos el comando 'git cheakout <nombre de la rama>' para cambiar al branch v0.2
 
-#Crear rama remota
+# Crear rama remota
   
 Una vez en la otra rama para que la carpeta se guarde en tenemos que usar los comandos 'git add .' y 'git commit -m "creación de fichero"'
   
-#Merge directo
+# Merge directo
 
 Primero para posicionarse en la rama principal hay que usar el comando 'git checkout main'
   
 Segundo, para hacer el merge con las dos ramas hay que usar el comando 'git merge v0.2'
   
-#Merge con conflicto
+# Merge con conflicto
   
 Para evitar los conflictos en la rama main hay que cambiar el archivo 1.txt y escrbir "Hola"
   
 Luego cambiar de ramas 'git checkout v0.2' y en el 1.txt agregar "Adios" en la segundo linea del texto
   
-#Listado de ramas:
+# Listado de ramas:
   
 Para asegurarme de que las ramas se hayan unido de manera correcta utilizo el comando 'git branch --merged'
   
-#Arreglar conflicto
+# Arreglar conflicto
 
 Para arreglar el conflicto me quedo con el "Hola" y el "Adios" en el 1.txt
 
@@ -86,7 +86,7 @@ Borrar rama
 
 Para borrar la segunda rama uso el comando 'git brancho -d v0.2'
   
-#Listado de cambios 
+# Listado de cambios 
   
 Para tener la lista de cambios primero hay que configurar
   
