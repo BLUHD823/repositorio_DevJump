@@ -101,3 +101,6 @@ Luego usamos el comando 'git list' para visualizar todos los cambios realizados
 |Armando Torres Quintana | https://github.com/ArmaTQ |
 | Leandro Cuevas | https://github.com/leandro-cuevas |
 | Ivan de la Parte | https://github.com/ivandelaparte |
+  
+ Colaborador: Armando Torres Quintana
+ Colaborador: Camila Rios
